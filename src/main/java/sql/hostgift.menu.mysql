@@ -1,0 +1,10 @@
+INSERT INTO `blade_menu`(`id`, `parent_id`, `code`, `name`, `alias`, `path`, `source`, `sort`, `category`, `action`, `is_open`, `remark`, `is_deleted`)
+VALUES ('1280052228335411206', 1123598815738675201, 'hostgift', '礼物', 'menu', '/gift/hostgift', NULL, 1, 1, 0, 1, NULL, 0);
+INSERT INTO `blade_menu`(`id`, `parent_id`, `code`, `name`, `alias`, `path`, `source`, `sort`, `category`, `action`, `is_open`, `remark`, `is_deleted`)
+VALUES ('1280052228335411207', '1280052228335411206', 'hostgift_add', '新增', 'add', '/gift/hostgift/add', 'plus', 1, 2, 1, 1, NULL, 0);
+INSERT INTO `blade_menu`(`id`, `parent_id`, `code`, `name`, `alias`, `path`, `source`, `sort`, `category`, `action`, `is_open`, `remark`, `is_deleted`)
+VALUES ('1280052228335411208', '1280052228335411206', 'hostgift_edit', '修改', 'edit', '/gift/hostgift/edit', 'form', 2, 2, 2, 1, NULL, 0);
+INSERT INTO `blade_menu`(`id`, `parent_id`, `code`, `name`, `alias`, `path`, `source`, `sort`, `category`, `action`, `is_open`, `remark`, `is_deleted`)
+VALUES ('1280052228335411209', '1280052228335411206', 'hostgift_delete', '删除', 'delete', '/api/blade-gift/hostgift/remove', 'delete', 3, 2, 3, 1, NULL, 0);
+INSERT INTO `blade_menu`(`id`, `parent_id`, `code`, `name`, `alias`, `path`, `source`, `sort`, `category`, `action`, `is_open`, `remark`, `is_deleted`)
+VALUES ('1280052228335411210', '1280052228335411206', 'hostgift_view', '查看', 'view', '/gift/hostgift/view', 'file-text', 4, 2, 2, 1, NULL, 0);
